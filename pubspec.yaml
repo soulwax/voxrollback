@@ -1,0 +1,11 @@
+name: voxrollback
+description: "Pure Dart deterministic rollback netcode engine: input ring buffers, repeat-last prediction, rewind-resimulate session loops, FNV-1a quantized state checksums, and frame advantage sync."
+version: 0.1.0
+repository: https://github.com/soulwax/voxrollback
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.25.0
